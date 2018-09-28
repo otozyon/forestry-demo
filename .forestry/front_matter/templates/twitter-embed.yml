@@ -1,0 +1,17 @@
+---
+label: Twitter Embed
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
+- type: boolean
+  default: false
+  label: Show Twitter Post
+  name: show_twitter_post
+- type: text
+  name: link_to_twitter_post
+  label: Link to Twitter Post
