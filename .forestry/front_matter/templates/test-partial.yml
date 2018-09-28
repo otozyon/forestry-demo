@@ -1,0 +1,21 @@
+---
+label: Test Partial
+hide_body: false
+is_partial: true
+display_field: title
+fields:
+- type: text
+  label: Title
+  name: title
+  description: Write something here that sounds like a title
+  config:
+    required: true
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+  label: Content
+  name: content
+  description: Write all that important stuff here
