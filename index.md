@@ -26,6 +26,15 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: false
+add_blocks_here:
+- template: test-partial
+  title: Test
+  content: Here we go. That's a block. Yes!
+- template: twitter-embed
+  title: Twitter Embed Title
+- template: test-partial
+  title: Another Test Block
+  content: Yep, more block content.
 menu:
   navigation:
     identifier: _index
