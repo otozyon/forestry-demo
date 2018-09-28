@@ -63,6 +63,12 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: blocks
+  label: Add Blocks here
+  name: add_blocks_here
+  template_types:
+  - twitter-embed
+  - test-partial
 - type: boolean
   name: show_news
   label: Show News?
